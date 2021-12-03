@@ -1,3 +1,3 @@
 # identity2
 
-Personal portfolio website
+Personal portfolio website + blog
