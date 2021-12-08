@@ -1,3 +1,3 @@
 # identity2
 
-Personal portfolio website + blog
+Personal portfolio website: about / projects / interests / thoughts
