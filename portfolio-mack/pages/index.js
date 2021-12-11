@@ -4,12 +4,11 @@ import Image from 'next/image'
 import { useState } from 'react'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
-  let [showMenu, setShowMenu] = useState(false)
+import { Footer, Nav } from '../components'
 
-  const toggleMenu = () => {
-    setShowMenu((prevState) => !prevState)
-  }
+export default function Home() {
+  
+
 
   return (
     <div className={styles.container} id="home">
@@ -18,27 +17,8 @@ export default function Home() {
         <meta name="description" content="Mack Kaputo Software engineer personal website and blog" />
       </Head>
       
-      <nav className={styles.navbar}>
-        <div className={`${styles.mobile_menu}`}>
-          <div className={styles.home_name}>
-            <span>MACK</span>
-          </div>
-          
-          <div className={styles.menu_burger}>
-            {!showMenu? <Image src={"/menu.svg"} width={40} height={39} onClick={toggleMenu} alt="Menu"/>
-            : <span onClick={toggleMenu} className={styles.close_menu}>&times;</span>}
-          </div>
-        </div>
-        <div className={`${styles.menu} ${showMenu? "": styles.hide_menu}` }>
-          <ul>
-            <li onClick={toggleMenu}><Link href="/">About</Link></li>
-            <li>Blog</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-      </nav>
-      
+
+      <Nav />
       
 
       <main className={styles.main}>
@@ -87,14 +67,10 @@ export default function Home() {
           </dl>
         </section>
 
-        <section>
-          Contact section
-        </section>
+        
       </main>
 
-      <footer className={styles.footer}>
-        
-      </footer>
+      <Footer />
     </div>
   )
 }
