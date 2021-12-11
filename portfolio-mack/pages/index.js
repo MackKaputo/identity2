@@ -86,6 +86,10 @@ export default function Home() {
             
           </dl>
         </section>
+
+        <section>
+          Contact section
+        </section>
       </main>
 
       <footer className={styles.footer}>
