@@ -12,7 +12,7 @@ const Nav = () => {
     }
 
     return (
-        <nav className={styles.navbar}>
+      <nav className={styles.navbar}>
         <div className={`${styles.mobile_menu}`}>
           <div className={styles.home_name}>
             <span>MACK</span>
@@ -28,7 +28,6 @@ const Nav = () => {
             <li onClick={toggleMenu}><Link href="/">About</Link></li>
             <li>Blog</li>
             <li>Portfolio</li>
-            <li>Contact</li>
           </ul>
         </div>
       </nav>

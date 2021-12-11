@@ -1,0 +1,108 @@
+/* *Profile */
+.profile {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    background-color: whitesmoke;
+}
+.profile > h2 {
+    border-bottom: rgb(195, 0, 255) solid 6px;
+    width: fit-content;
+    font-size: xx-large;
+}
+
+.profile_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile_content div {
+    padding: 3%;
+}
+.profile_picture_container {
+    display: none;
+}
+
+.profile_picture_container_desk  {
+    margin-top: 5rem;
+}
+
+.profile_picture {
+    border-radius: 50%;
+}
+
+.profile dl {
+    font-size: 1em;
+    background-color: white;
+    padding: 2rem;
+}
+
+.profile dl dt {
+    margin: 0.5rem;
+    margin-top: 1rem;
+    opacity: 0.8;
+    border-bottom: rgb(195, 0, 255) dashed 1.5px;
+    width: fit-content;
+}
+
+.profile dl dd {
+    padding-left: 6rem ;
+    
+}
+
+.profile dl dd a {
+    color: blue;
+}
+
+
+@media screen and (max-width: 760px) {
+    .profile {
+        padding: 1.5rem;
+        background-color: whitesmoke;
+    }
+    .profile > h2 {
+        border-bottom: rgb(195, 0, 255) solid 6px;
+        width: fit-content;
+        font-size: xx-large;
+    }
+    .profile_content {
+        display: inline-block;
+    }
+    .profile_content div {
+        padding: 0;
+    }
+
+    .profile_picture_container {
+        display: grid;
+        place-items: center;
+
+    }
+    .profile_picture_container_desk {
+        display: none;
+    }
+    .profile_picture {
+        border-radius: 50%;
+    }
+
+    .profile dl {
+        font-size: 1em;
+        background-color: whitesmoke;
+        padding: 0;
+    }
+
+    .profile dl dt {
+        margin: 0.5rem;
+        opacity: 0.8;
+        border-bottom: rgb(195, 0, 255) dashed 1.5px;
+        width: fit-content;
+    }
+
+    .profile dl dd {
+        padding: 0.5rem ;
+    }
+
+    .profile dl dd a {
+        color: blue;
+    }
+}
