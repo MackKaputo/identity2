@@ -13,13 +13,14 @@
   margin: auto;
 }
 .main .jumbo {
-  /* background-image: url("https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHVycGxlJTIwcHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=1300&q=100");
+  background-image: url("https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHVycGxlJTIwcHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=1300&q=120");
   background-size: cover;
-  background-position: center; */
-  background-image: linear-gradient(rgb(195, 0, 255), rgb(68, 0, 255));
-  height: fit-content;
+  background-position: center;
+  /* background-image: linear-gradient(rgb(195, 0, 255), rgb(68, 0, 255)); */
+  min-height: 80vh;
   width: 100%;
   display: inline-block;
+
 }
 .main .jumbo > section {
   margin: 1%;
@@ -27,6 +28,7 @@
 
 .jumbo_text {
   color: white;
+  width: 100%;
 }
 
 .jumbo_text h1 {
@@ -34,15 +36,24 @@
   padding-bottom: 2rem;
   margin: 4% 1% 3%;
   text-align: center;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  
 }
 .jumbo_text h2 {
   margin: 4% 1% 3%;
   text-align: center;
+
 }
 
 .jumbo_text h3 {
   font-size: large;
   text-align: center;
+  font-size: x-large;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
 }
 
 .more_about_me_container {
@@ -61,3 +72,15 @@
   
 }
 
+@media screen and (max-width: 760px) {
+
+  .jumbo_text {
+    padding-top: 5rem;
+  }
+  .jumbo_text h1 {
+
+    padding-left: 0;
+    padding-right: 0;
+    font-size: x-large;
+  }
+}

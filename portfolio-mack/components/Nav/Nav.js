@@ -26,8 +26,8 @@ const Nav = () => {
         <div className={`${styles.menu} ${showMenu? "": styles.hide_menu}` }>
           <ul>
             <li onClick={toggleMenu}><Link href="/">About</Link></li>
-            <li>Blog</li>
-            <li>Portfolio</li>
+            <li onClick={toggleMenu}><Link href="/blog">Blog</Link></li>
+            <li onClick={toggleMenu}><Link href="/portfolio">Portfolio</Link></li>
           </ul>
         </div>
       </nav>
