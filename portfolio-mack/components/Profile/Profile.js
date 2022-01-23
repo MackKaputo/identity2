@@ -32,7 +32,7 @@ const Profile = () => {
                             <a href="https://www.coursera.org/account/accomplishments/verify/2H9N2GF3R4EA?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="blank">
                             Machine Learning
                             </a>
-                        , Education, Martial Arts, Philosophy, Engineering </dd>
+                        , Education, Philosophy, Software Engineering </dd>
                     
                     </dl>
                 </div>

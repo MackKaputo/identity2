@@ -16,7 +16,9 @@ const Portfolio = () => {
             <Nav />
 
             <main>
-                <div>Portfolio Projects </div>
+                <div>Personal Projects </div>
+
+                <div></div>
             </main>
             <Footer />
         </>
