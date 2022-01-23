@@ -28,6 +28,7 @@ const Nav = () => {
             <li onClick={toggleMenu}><Link href="/">About</Link></li>
             <li onClick={toggleMenu}><Link href="/blog">Blog</Link></li>
             <li onClick={toggleMenu}><Link href="/portfolio">Portfolio</Link></li>
+            <li onClick={toggleMenu}><Link href="#">Courses</Link></li>
           </ul>
         </div>
       </nav>

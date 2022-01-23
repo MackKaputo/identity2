@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from 'next/image'
 import { useState } from 'react'
 
-import { Footer, Nav } from '../components'
+import { Footer, Nav, Projects } from '../components'
 
 const Portfolio = () => {
     return (
@@ -16,9 +16,7 @@ const Portfolio = () => {
             <Nav />
 
             <main>
-                <div>Personal Projects </div>
-
-                <div></div>
+               <Projects />
             </main>
             <Footer />
         </>
