@@ -3,4 +3,11 @@
     padding: 1rem;
     border-radius: 2rem;
     box-shadow: 0.1rem 0.1rem 1rem rgb(140, 44, 185);
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem
 }

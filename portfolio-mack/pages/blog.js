@@ -17,14 +17,12 @@ const Blog = () => {
 
             <main style={{ margin: "2%", padding: "1%", height: "80vh"}}>
                 <div>
-                    Hey! Thanks for checking out this blog. There is no blog posts yet, 
-                    but stay tuned!!
+                    <h1>Hey! Thanks for checking out this blog. There is no blog posts yet, 
+                    but stay tuned!!</h1>
                 </div>
                 <div>
-                    This blog will contain content related to mainly software engineering.
-                    However, there will also be a few posts on my Philosophical thoughts,
-                    applied mathematics concepts, and many more. It's all about me sharing 
-                    the knowledge I'm acquiring over time. I hope you will enjoy the content. 
+                    <h3>This blog will contain content related to my personal experiences and thoughts 
+                    about several topics of life like success, education, religion, philosophy, lifestyles, and more!</h3>
                 </div>
             </main>
             <Footer />
